@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 320px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 0 black;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 gray;
+}
+
+.calc-head #result {
+    height: 100px;
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 10px; 
+    letter-spacing: 2px;
+    box-sizing: border-box; 
+}
+
+.calc-body {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 5px; 
+    box-sizing: border-box;
+}
+
+.btn {
+    width: calc(25% - 10px); 
+    height: 70px;
+    margin: 5px; 
+    font-weight: bold;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background-color: rgb(226, 104, 124);
+}
+
+.button-color{
+    background-color: rgb(2, 75, 75);
+}
